@@ -5,3 +5,19 @@
     margin: 0;
     padding: 0;
 }
+::-moz-selection,
+::selection {
+	background-color: $nied;
+	color: $awhite;
+	text-shadow: none;
+}
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
