@@ -37,3 +37,6 @@ blockquote {
 	font-size: ($base-font-size) + 6px;
 	font-size: (($base-font-size) + 6) / $base-font-size + rem;
 }
+li {
+	list-style: none;
+}
