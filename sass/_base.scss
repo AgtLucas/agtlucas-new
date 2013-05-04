@@ -34,8 +34,8 @@ blockquote {
 	padding-left: 1.25em;
 	margin: 1.5625em 0;
 	border-left: 5px solid $coolblue;
-	font-size: ($base-font-size) + 6px;
-	font-size: (($base-font-size) + 6) / $base-font-size + rem;
+	font-size: $base-font-size + 6px;
+	font-size: ($base-font-size + 6) / $base-font-size + rem;
 }
 li {
 	list-style: none;
