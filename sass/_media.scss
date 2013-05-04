@@ -1,0 +1,34 @@
+@media screen and (min-width: 17.5em) and (max-width: 47.5em) {
+	.content {
+		padding: 1.25em;
+	}
+
+	.menu-panel ul li {
+		display: block;
+	}
+
+	.search-form {
+		input {
+			width: 90%;
+		}
+	}
+
+	.pull {
+		position: relative;
+		top: -15px;
+		font-size: 60px;
+	}
+
+	.social-network, .footer-widget {
+		width: 100%;
+	}
+
+	.error {
+		font-size: 40px;
+		form {
+			input {
+				width: 80%;
+			}
+		}
+	}
+}
