@@ -12,6 +12,7 @@ $i: 1;
 	h#{$i} {
 		font-size: 50px - ($i* 5px);
 		font-size: (50 - $i* 5) / 16 + rem;
+		color: $coolblue;
 	}
 	$i: $i + 1;
 }

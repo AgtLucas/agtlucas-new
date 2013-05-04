@@ -87,8 +87,9 @@ header {
 	text-align: center;
 	font-size: $base-font-size + 19px;
 	font-size: ($base-font-size + 19) / $base-font-size + rem;
+	color: $greyblack;
 	a {
-		color: $greyblack;
+		color: inherit;
 		&:hover {
 			color: $coolblue;
 		}
