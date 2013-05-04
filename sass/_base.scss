@@ -40,3 +40,17 @@ blockquote {
 li {
 	list-style: none;
 }
+.cf:before, .cf:after {
+	content: " ";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.content {
+	position: relative;
+	width: 60em;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0.625em;
+}
