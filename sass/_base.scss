@@ -7,7 +7,11 @@ $base-font-size: 16;
     margin: 0;
     padding: 0;
 }
-::-moz-selection,
+::-moz-selection {
+	background-color: $nied;
+	color: $awhite;
+	text-shadow: none;
+}
 ::selection {
 	background-color: $nied;
 	color: $awhite;
