@@ -2,3 +2,13 @@ header,
 footer {
 	width: 100%;
 }
+.homepage {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -300px;
+	text-align: center;
+}
